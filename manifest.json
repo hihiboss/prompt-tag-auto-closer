@@ -2,11 +2,16 @@
     "manifest_version": 3,
     "name": "Prompt Tag Auto Closer",
     "version": "1.0",
-    "description": "ChatGPT 프롬프트 입력 시 XML 태그 자동 닫기",
+    "description": "Auto-close XML tags when entering prompts in ChatGPT.",
     "permissions": [
         "activeTab",
         "scripting"
     ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
     "content_scripts": [
         {
             "matches": [
